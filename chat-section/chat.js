@@ -132,7 +132,7 @@ var reply16 = "Fun fact: Kaneez once built a full website in one night before su
 
 // 9. Future & Goals
 var input17 = [
-  "future", "goals", "dreams", "aim", "plans", "career plan",
+  "future", "goals","future goals", "dreams", "aim", "plans", "career plan","future career",
   "apka mustaqbil", "apke goals", "apke khuwab", "apke irade"
 ];
 var reply17 = "InshaAllah ✨ she wants to be a professional Full-Stack Developer and explore Agentic AI. Maybe even launch her own startup.";
@@ -296,7 +296,7 @@ function send(e) {
     }
     else {
       setTimeout(function () {
-        ul.insertAdjacentHTML("beforeend", `<li class="bot-li">I’m sorry, I didn’t understand that.</li>`);
+        ul.insertAdjacentHTML("beforeend", `<li class="bot-li">You can try asking about skills, projects, or education.</li>`);
       }, 3000);
     }
   }
